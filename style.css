@@ -1,0 +1,342 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mobile-nav{
+    display: none;
+}
+nav img{
+    width: 100px;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255,192,23);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+nav ul button{
+    border: none;
+    height: 36px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 200px;
+}
+.first-section{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(255,192,23);
+    padding: 100px 10px 10px 150px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.first-section h1{
+    font-size: 100px;
+}
+.first-section p{
+    font-size: 30px;
+}
+.first-section button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-section h3{
+    text-align: start;
+}
+.s-section1 h4 img{
+    border-radius: 20px; 
+}
+.s-section1 h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.s-section1 {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 25px;
+    margin-top: 40px;
+}
+.topic{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    margin-top: 120px;
+}
+.topic .content{
+    display: flex;
+    gap: 40px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+.topic .content .div img{
+    border-radius: 200px;
+}
+.topic .img_section img{
+    width: 80%;
+}
+.topic .content .div button{
+    border: none;
+    border-radius: 200px;
+    height: 20px;
+    width: 50px;
+}
+.discover_more {
+    position:sticky;
+    top: 100px;
+}
+.discover_more h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.discover_more .buttons .btn_1{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons .btn_2{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons .btn_3{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons_1 .btn_1{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+
+.discover_more .buttons_1 .btn_2{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 90px;
+}
+.discover_more .buttons_1 .btn_3{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons_1{
+    margin: 20px 0px;
+}
+
+.discover_more .buttons_2 .btn_1{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 140px;
+}
+
+.discover_more .buttons_2 .btn_2{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 110px;
+}
+.discover_more .buttons_2 .btn_3{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 80px;
+}
+.discover_more .see p{
+    margin: 20px 0px 70px 0px;
+    color: green;
+    font-weight: 600;
+
+}
+.discover_more .footer{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    /* top:72px ; */
+}
+footer{
+    display: none;
+}
+@media (max-width:768px) {
+    .mobile_nav{
+        display: none;
+    }
+    .mobile_nav img{
+        width: 150px;
+    }
+    .mobile_nav button{
+        border: none;
+        height: 36px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        border-radius: 200px;
+    }
+    
+    .mobile_discover_more{
+        display: none;
+    }
+    
+    .mobile_discover_more h1{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    
+    .mobile_discover_more .buttons .btn_1{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 120px;
+    }
+    .mobile_discover_more .buttons .btn_2{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 120px;
+    }
+    .mobile_discover_more .buttons .btn_3{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 120px;
+    }
+    .mobile_discover_more .buttons_1 .btn_1{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 120px;
+    }
+    
+    .mobile_discover_more .buttons_1 .btn_2{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 90px;
+    }
+    .mobile_discover_more .buttons_1 .btn_3{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 120px;
+    }
+    .mobile_discover_more .buttons_1{
+        margin: 20px 0px;
+    }
+    
+    .mobile_discover_more .buttons_2 .btn_1{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 140px;
+    }
+    
+    .mobile_discover_more .buttons_2 .btn_2{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 110px;
+    }
+    .mobile_discover_more .buttons_2 .btn_3{
+        height: 35px;
+        border: none;
+        border-radius: 200px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 80px;
+    }
+    .mobile_discover_more .see p{
+        margin: 20px 0px 70px 0px;
+        color: green;
+        font-weight: 600;
+    
+    }
+
+    footer{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+    }
+    
+}
